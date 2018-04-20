@@ -1,0 +1,138 @@
+TITLE:   CMPS 490 - Artificial Intelligence for Modern Board Games: An Intelligent Agent for '7 Wonders'
+DATE:    Winter and Spring 2015
+AUTHOR:  Frank Madrid
+PURPOSE: CMPS 490A and CMPS 490B Senior Seminar Project
+*****************************************************************
+[7WONDERS] Initializing 7 Wonders
+	ID           : 7018e1bc-d354-460f-97ec-e519d1c5355d
+	Seed         : 4942596926851911218
+	Player Count : 3
+*****************************************************************
+[7WONDERS] Initializing Players.
+	Creating Player [Frank] (RBAI1)
+	Creating Player [Barry] (RANDOM)
+	Creating Player [Chris] (LEARNER)
+*****************************************************************
+[7WONDERS] Defining neighbors.
+	Chris -> Frank -> Barry -> Chris 
+	Chris <- Barry <- Frank <- Chris 
+*****************************************************************
+[PLAYER] Player [Chris] receiving wonderboard [Halikarnassos Side A]
+[PLAYER] Player [Frank] receiving wonderboard [Alexandria Side B]
+[PLAYER] Player [Barry] receiving wonderboard [Olympia Side B]
+*****************************************************************
+[7WONDERS] Entering Round [1]
+[7WONDERS] Entering Turn [1]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Lumber Yard].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Press].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [West Trading Post].
+[7WONDERS] Entering Turn [2]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Altar].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Loom].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Clay Pool].
+[7WONDERS] Entering Turn [3]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Stone Pit].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Ore Vein].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Barracks].
+[7WONDERS] Entering Turn [4]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Theatre].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Scriptorium].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [East Trading Post].
+[7WONDERS] Entering Turn [5]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Guard Tower].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Glass Works].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Marketplace].
+[7WONDERS] Entering Turn [6]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Apothecary].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Clay Pit].
+[7WONDERS] Player [Barry] is resolving action [DISCARD_CARD] with structure [Workshop].
+[7WONDERS] Player [Chris] discarding final card [Stockade].
+[7WONDERS] Player [Frank] discarding final card [Timber Yard].
+[7WONDERS] Player [Barry] discarding final card [Baths].
+[7WONDERS] Resolving Conflicts.
+[7WONDERS] Player [Chris] has defetead Player [Frank] [1 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Frank] [1 - 0].
+*****************************************************************
+[7WONDERS] Entering Round [2]
+[7WONDERS] Entering Turn [1]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Loom].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [School].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Quarry].
+[7WONDERS] Entering Turn [2]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Dispensary].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Foundry].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Temple].
+[7WONDERS] Entering Turn [3]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Stables].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Library].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Brickyard].
+[7WONDERS] Entering Turn [4]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Sawmill].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Laboratory].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Walls].
+[7WONDERS] Entering Turn [5]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Press].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Courthouse].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Aqueduct].
+[7WONDERS] Entering Turn [6]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Archery Range].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Forum].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Glass Works].
+[7WONDERS] Player [Chris] discarding final card [Statue].
+[7WONDERS] Player [Frank] discarding final card [Caravansery].
+[7WONDERS] Player [Barry] discarding final card [Vineyard].
+[7WONDERS] Resolving Conflicts.
+[7WONDERS] Player [Chris] has defetead Player [Barry] [5 - 3].
+[7WONDERS] Player [Chris] has defetead Player [Frank] [5 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Frank] [3 - 0].
+*****************************************************************
+[7WONDERS] Entering Round [3]
+[7WONDERS] Entering Turn [1]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [University].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Palace].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [TownHall].
+[7WONDERS] Entering Turn [2]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Haven].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Senate].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Study].
+[7WONDERS] Entering Turn [3]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Gardens].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Pantheon].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Fortifications Tower].
+[7WONDERS] Entering Turn [4]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Scientists Guild].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Craftsmens Guild].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Siege Workshop].
+[7WONDERS] Entering Turn [5]
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Spies Guild].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Observatory].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Lodge].
+[7WONDERS] Entering Turn [6]
+[7WONDERS] Player [Chris] is resolving action [DISCARD_CARD] with structure [Philosophers Guild].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Academy].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Lighthouse].
+[7WONDERS] Player [Chris] discarding final card [Builders Guild].
+[7WONDERS] Player [Frank] discarding final card [Arsenal].
+[7WONDERS] Player [Barry] discarding final card [Arena].
+[7WONDERS] Resolving Conflicts.
+[7WONDERS] Player [Chris] has defetead Player [Frank] [5 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Frank] [9 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Chris] [9 - 5].
+[7WONDERS] Calculating final scores.
+[PLAYER] [Chris] Victory Points: [16].
+[PLAYER] [Chris] Conflict Score: [11].
+[PLAYER] [Chris] Science Score: [13].
+[PLAYER] [Chris] Gold Score: [1].
+[PLAYER] [Chris] has a final score of [41].
+[PLAYER] [Frank] Victory Points: [23].
+[PLAYER] [Frank] Conflict Score: [-6].
+[PLAYER] [Frank] Science Score: [18].
+[PLAYER] [Frank] Gold Score: [1].
+[PLAYER] [Frank] has a final score of [36].
+[PLAYER] [Barry] Victory Points: [18].
+[PLAYER] [Barry] Conflict Score: [13].
+[PLAYER] [Barry] Science Score: [2].
+[PLAYER] [Barry] Gold Score: [4].
+[PLAYER] [Barry] has a final score of [37].
+[7WONDERS] Final Results [Chris] [Barry] [Frank] 3,1,2
+[GAME] Program terminating.

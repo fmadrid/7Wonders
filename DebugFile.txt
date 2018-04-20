@@ -1,0 +1,1089 @@
+TITLE:   CMPS 490 - Artificial Intelligence for Modern Board Games: An Intelligent Agent for '7 Wonders'
+DATE:    Winter and Spring 2015
+AUTHOR:  Frank Madrid
+PURPOSE: CMPS 490A and CMPS 490B Senior Seminar Project
+[GAME] Reading 'Configuration.properties'
+*****************************************************************
+[7WONDERS] Initializing 7 Wonders
+	ID           : 7018e1bc-d354-460f-97ec-e519d1c5355d
+	Seed         : 4942596926851911218
+	Player Count : 3
+*****************************************************************
+[7WONDERS] Initializing Players.
+	Creating Player [Frank] (RBAI1)
+	Creating Player [Barry] (RANDOM)
+	Creating Player [Chris] (LEARNER)
+*****************************************************************
+[7WONDERS] Defining neighbors.
+	Chris -> Frank -> Barry -> Chris 
+	Chris <- Barry <- Frank <- Chris 
+*****************************************************************
+[PLAYER] Player [Chris] receiving wonderboard [Halikarnassos Side A]
+	(1) Loom    
+[PLAYER] Player [Frank] receiving wonderboard [Alexandria Side B]
+	(1) Glass   
+[PLAYER] Player [Barry] receiving wonderboard [Olympia Side B]
+	(1) Wood    
+*****************************************************************
+[7WONDERS] Entering Round [1]
+[7WONDERS] Repopulating library with Age [1] structures
+	Adding Structure: [Lumber Yard] to the library.
+	Adding Structure: [Stone Pit] to the library.
+	Adding Structure: [Clay Pool] to the library.
+	Adding Structure: [Ore Vein] to the library.
+	Adding Structure: [Clay Pit] to the library.
+	Adding Structure: [Timber Yard] to the library.
+	Adding Structure: [Loom] to the library.
+	Adding Structure: [Glass Works] to the library.
+	Adding Structure: [Press] to the library.
+	Adding Structure: [Apothecary] to the library.
+	Adding Structure: [Workshop] to the library.
+	Adding Structure: [Scriptorium] to the library.
+	Adding Structure: [Baths] to the library.
+	Adding Structure: [Altar] to the library.
+	Adding Structure: [Theatre] to the library.
+	Adding Structure: [East Trading Post] to the library.
+	Adding Structure: [West Trading Post] to the library.
+	Adding Structure: [Marketplace] to the library.
+	Adding Structure: [Stockade] to the library.
+	Adding Structure: [Barracks] to the library.
+	Adding Structure: [Guard Tower] to the library.
+[7WONDERS] Refreshing effects at frequency [AGE].
+[7WONDERS] Entering Turn [1]
+[7WONDERS] Allocating hands
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Clay Pit
+	Clay Pool
+	Theatre
+	Lumber Yard
+	Timber Yard
+	Ore Vein
+	Marketplace
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Press
+	Guard Tower
+	Barracks
+	Altar
+	Scriptorium
+	Workshop
+	Baths
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Glass Works
+	Stone Pit
+	Apothecary
+	Stockade
+	Loom
+	East Trading Post
+	West Trading Post
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Clay Pool
+	Theatre
+	Lumber Yard
+	Ore Vein
+	Marketplace
+[RBAI1] Player [Frank] can play the following structures:
+	Press
+	Altar
+	Workshop
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+	Press
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Glass Works
+	Stone Pit
+	Stockade
+	Loom
+	East Trading Post
+	West Trading Post
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Lumber Yard].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Press].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [West Trading Post].
+[7WONDERS] Player [Chris] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Wood    (1) Loom    
+[7WONDERS] Player [Frank] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Glass   (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving effect [TRADE_BONUS] from structure.
+[7WONDERS] Entering Turn [2]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Guard Tower
+	Barracks
+	Altar
+	Scriptorium
+	Workshop
+	Baths
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Glass Works
+	Stone Pit
+	Apothecary
+	Stockade
+	Loom
+	East Trading Post
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Clay Pit
+	Clay Pool
+	Theatre
+	Timber Yard
+	Ore Vein
+	Marketplace
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Altar
+[RBAI1] Player [Frank] can play the following structures:
+	Glass Works
+	Stone Pit
+	Loom
+	East Trading Post
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+	Glass Works
+	Stone Pit
+	Loom
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Clay Pool
+	Theatre
+	Ore Vein
+	Marketplace
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Altar].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Loom].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Clay Pool].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Wood    (1) Brick   
+[7WONDERS] Entering Turn [3]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Glass Works
+	Stone Pit
+	Apothecary
+	Stockade
+	East Trading Post
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Clay Pit
+	Theatre
+	Timber Yard
+	Ore Vein
+	Marketplace
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Guard Tower
+	Barracks
+	Scriptorium
+	Workshop
+	Baths
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Glass Works
+	Stone Pit
+	Apothecary
+	Stockade
+	East Trading Post
+[RBAI1] Player [Frank] can play the following structures:
+	Theatre
+	Ore Vein
+	Marketplace
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+	Ore Vein
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Barracks
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Stone Pit].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Ore Vein].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Barracks].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Wood    (1) Stone   (1) Loom    
+[7WONDERS] Player [Frank] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Ore     (1) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Entering Turn [4]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Clay Pit
+	Theatre
+	Timber Yard
+	Marketplace
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Guard Tower
+	Scriptorium
+	Workshop
+	Baths
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Glass Works
+	Apothecary
+	Stockade
+	East Trading Post
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Theatre
+	Marketplace
+[RBAI1] Player [Frank] can play the following structures:
+	Scriptorium
+	Workshop
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+[RBAI1] Rule Five:
+	Scriptorium
+	Workshop
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Glass Works
+	Stockade
+	East Trading Post
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Theatre].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Scriptorium].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [East Trading Post].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [TRADE_BONUS] from structure.
+[7WONDERS] Entering Turn [5]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Guard Tower
+	Workshop
+	Baths
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Glass Works
+	Apothecary
+	Stockade
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Clay Pit
+	Timber Yard
+	Marketplace
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Guard Tower
+	Baths
+[RBAI1] Player [Frank] can play the following structures:
+	Glass Works
+	Apothecary
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+	Glass Works
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Marketplace
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Guard Tower].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Glass Works].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Marketplace].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [RESOURCE_BONUS] from structure.
+	(1) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving effect [TRADE_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [TRADE_BONUS] from structure.
+[7WONDERS] Entering Turn [6]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Apothecary
+	Stockade
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Clay Pit
+	Timber Yard
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Workshop
+	Baths
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Apothecary
+	Stockade
+[RBAI1] Player [Frank] can play the following structures:
+[RANDOMCARD] Player [Barry] can play the following structures:
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Apothecary].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Clay Pit].
+[PLAYER] Player [Frank] gaining [3] gold.
+	(3) Gold    (1) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving action [DISCARD_CARD] with structure [Workshop].
+[PLAYER] Player [Barry] gaining [3] gold.
+	(3) Gold    (1) Wood    (1) Brick   
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Chris] discarding final card [Stockade].
+[7WONDERS] Player [Frank] discarding final card [Timber Yard].
+[7WONDERS] Player [Barry] discarding final card [Baths].
+[7WONDERS] Resolving Conflicts.
+[7WONDERS] Player [Chris] has defetead Player [Frank] [1 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Frank] [1 - 0].
+*****************************************************************
+[7WONDERS] Entering Round [2]
+[7WONDERS] Repopulating library with Age [2] structures
+	Adding Structure: [Sawmill] to the library.
+	Adding Structure: [Quarry] to the library.
+	Adding Structure: [Brickyard] to the library.
+	Adding Structure: [Foundry] to the library.
+	Adding Structure: [Loom] to the library.
+	Adding Structure: [Glass Works] to the library.
+	Adding Structure: [Press] to the library.
+	Adding Structure: [Dispensary] to the library.
+	Adding Structure: [Laboratory] to the library.
+	Adding Structure: [Library] to the library.
+	Adding Structure: [School] to the library.
+	Adding Structure: [Aqueduct] to the library.
+	Adding Structure: [Temple] to the library.
+	Adding Structure: [Statue] to the library.
+	Adding Structure: [Courthouse] to the library.
+	Adding Structure: [Forum] to the library.
+	Adding Structure: [Caravansery] to the library.
+	Adding Structure: [Vineyard] to the library.
+	Adding Structure: [Walls] to the library.
+	Adding Structure: [Stables] to the library.
+	Adding Structure: [Archery Range] to the library.
+[7WONDERS] Refreshing effects at frequency [AGE].
+[7WONDERS] Entering Turn [1]
+[7WONDERS] Allocating hands
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Loom
+	Brickyard
+	Courthouse
+	Sawmill
+	Glass Works
+	Foundry
+	Vineyard
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Laboratory
+	Archery Range
+	Stables
+	Statue
+	Aqueduct
+	School
+	Temple
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Dispensary
+	Quarry
+	Library
+	Walls
+	Press
+	Forum
+	Caravansery
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Loom
+	Glass Works
+	Vineyard
+[RBAI1] Player [Frank] can play the following structures:
+	School
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+[RBAI1] Rule Five:
+	School
+[PLAYER] Player [Barry] freebuilt using [West Trading Post].
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Quarry
+	Press
+	Forum
+	Caravansery
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Chris] gaining [2] gold.
+	(2) Gold    (1) Wood    (1) Stone   (1) Loom    
+[RESOURCESMANAGER] Lost [1] gold.
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Loom].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [School].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Quarry].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [RESOURCE_BONUS] from structure.
+	(2) Gold    (1) Wood    (1) Stone   (2) Loom    
+[7WONDERS] Player [Frank] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [RESOURCE_BONUS] from structure.
+	(2) Gold    (1) Wood    (2) Stone   (1) Brick   
+[7WONDERS] Entering Turn [2]
+[7WONDERS] [Barry] taking hand from [Frank].
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Laboratory
+	Archery Range
+	Stables
+	Statue
+	Aqueduct
+	Temple
+[7WONDERS] [Frank] taking hand from [Chris].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Brickyard
+	Courthouse
+	Sawmill
+	Glass Works
+	Foundry
+	Vineyard
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Dispensary
+	Library
+	Walls
+	Press
+	Forum
+	Caravansery
+[7WONDERS] Refreshing effects at frequency [TURN].
+[PLAYER] Player [Chris] freebuilt using [Apothecary].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Dispensary
+	Library
+	Press
+	Caravansery
+[PLAYER] Player [Frank] freebuilt using [Scriptorium].
+[RBAI1] Player [Frank] can play the following structures:
+	Brickyard
+	Courthouse
+	Sawmill
+	Foundry
+	Vineyard
+[RBAI1] Rule One:
+	Brickyard
+	Sawmill
+	Foundry
+[RESOURCESMANAGER] Lost [1] gold.
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Stables
+	Aqueduct
+	Temple
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(4) Gold    (1) Wood    (2) Stone   (1) Brick   
+[RESOURCESMANAGER] Lost [1] gold.
+[PLAYER] Paying [1] gold.
+[RESOURCESMANAGER] Lost [1] gold.
+[PLAYER] Player [Chris] gaining [1] gold.
+	(1) Gold    (1) Wood    (1) Stone   (2) Loom    
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Dispensary].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Foundry].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Temple].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [RESOURCE_BONUS] from structure.
+	(-1) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Entering Turn [3]
+[7WONDERS] [Barry] taking hand from [Frank].
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Brickyard
+	Courthouse
+	Sawmill
+	Glass Works
+	Vineyard
+[7WONDERS] [Frank] taking hand from [Chris].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Library
+	Walls
+	Press
+	Forum
+	Caravansery
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Laboratory
+	Archery Range
+	Stables
+	Statue
+	Aqueduct
+[7WONDERS] Refreshing effects at frequency [TURN].
+[PLAYER] Player [Chris] freebuilt using [Apothecary].
+[PLAYER] Player [Chris] freebuilt using [Theatre].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Stables
+	Statue
+[PLAYER] Player [Frank] freebuilt using [Scriptorium].
+[RBAI1] Player [Frank] can play the following structures:
+	Library
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+[RBAI1] Rule Five:
+	Library
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Brickyard
+	Sawmill
+	Glass Works
+	Vineyard
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Frank] gaining [2] gold.
+	(1) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Chris] gaining [4] gold.
+	(3) Gold    (1) Wood    (1) Stone   (2) Loom    
+[RESOURCESMANAGER] Lost [1] gold.
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Stables].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Library].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Brickyard].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [RESOURCE_BONUS] from structure.
+	(2) Gold    (1) Wood    (2) Stone   (3) Brick   
+[7WONDERS] Entering Turn [4]
+[7WONDERS] [Barry] taking hand from [Frank].
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Walls
+	Press
+	Forum
+	Caravansery
+[7WONDERS] [Frank] taking hand from [Chris].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Laboratory
+	Archery Range
+	Statue
+	Aqueduct
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Courthouse
+	Sawmill
+	Glass Works
+	Vineyard
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Sawmill
+	Glass Works
+	Vineyard
+[RBAI1] Player [Frank] can play the following structures:
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Walls
+	Press
+	Forum
+	Caravansery
+[RESOURCESMANAGER] Lost [1] gold.
+[PLAYER] Paying [1] gold.
+[RESOURCESMANAGER] Lost [1] gold.
+[PLAYER] Player [Frank] gaining [1] gold.
+	(-2) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Sawmill].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Laboratory].
+[PLAYER] Player [Frank] gaining [3] gold.
+	(1) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Walls].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [RESOURCE_BONUS] from structure.
+	(2) Gold    (3) Wood    (1) Stone   (2) Loom    
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Entering Turn [5]
+[7WONDERS] [Barry] taking hand from [Frank].
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Archery Range
+	Statue
+	Aqueduct
+[7WONDERS] [Frank] taking hand from [Chris].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Courthouse
+	Glass Works
+	Vineyard
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Press
+	Forum
+	Caravansery
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Press
+	Caravansery
+[PLAYER] Player [Frank] freebuilt using [Scriptorium].
+[RBAI1] Player [Frank] can play the following structures:
+	Courthouse
+	Vineyard
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+	Courthouse
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Aqueduct
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Chris] gaining [4] gold.
+	(6) Gold    (3) Wood    (1) Stone   (2) Loom    
+[PLAYER] Paying [1] gold.
+[RESOURCESMANAGER] Lost [1] gold.
+[PLAYER] Player [Frank] gaining [1] gold.
+	(-2) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Press].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Courthouse].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Aqueduct].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [RESOURCE_BONUS] from structure.
+	(6) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Entering Turn [6]
+[7WONDERS] [Barry] taking hand from [Frank].
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Glass Works
+	Vineyard
+[7WONDERS] [Frank] taking hand from [Chris].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Forum
+	Caravansery
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Archery Range
+	Statue
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Archery Range
+	Statue
+[RBAI1] Player [Frank] can play the following structures:
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Glass Works
+	Vineyard
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(2) Gold    (1) Wood    (2) Stone   (3) Brick   
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Archery Range].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Forum].
+[PLAYER] Player [Frank] gaining [3] gold.
+	(1) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Glass Works].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [RESOURCE_BONUS] from structure.
+	(2) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[7WONDERS] Player [Chris] discarding final card [Statue].
+[7WONDERS] Player [Frank] discarding final card [Caravansery].
+[7WONDERS] Player [Barry] discarding final card [Vineyard].
+[7WONDERS] Resolving Conflicts.
+[7WONDERS] Player [Chris] has defetead Player [Barry] [5 - 3].
+[7WONDERS] Player [Chris] has defetead Player [Frank] [5 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Frank] [3 - 0].
+*****************************************************************
+[7WONDERS] Entering Round [3]
+[7WONDERS] Repopulating library with Age [3] structures
+	Adding Structure: [Lodge] to the library.
+	Adding Structure: [Observatory] to the library.
+	Adding Structure: [University] to the library.
+	Adding Structure: [Academy] to the library.
+	Adding Structure: [Study] to the library.
+	Adding Structure: [Pantheon] to the library.
+	Adding Structure: [Gardens] to the library.
+	Adding Structure: [TownHall] to the library.
+	Adding Structure: [Palace] to the library.
+	Adding Structure: [Senate] to the library.
+	Adding Structure: [Haven] to the library.
+	Adding Structure: [Lighthouse] to the library.
+	Adding Structure: [Arena] to the library.
+	Adding Structure: [Fortifications Tower] to the library.
+	Adding Structure: [Arsenal] to the library.
+	Adding Structure: [Siege Workshop] to the library.
+[7WONDERS] Adding Structure: [Builders Guild] to the library.
+[7WONDERS] Adding Structure: [Scientists Guild] to the library.
+[7WONDERS] Adding Structure: [Philosophers Guild] to the library.
+[7WONDERS] Adding Structure: [Spies Guild] to the library.
+[7WONDERS] Adding Structure: [Craftsmens Guild] to the library.
+[7WONDERS] Refreshing effects at frequency [AGE].
+[7WONDERS] Entering Turn [1]
+[7WONDERS] Allocating hands
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Study
+	University
+	Arsenal
+	Lodge
+	Pantheon
+	Academy
+	Scientists Guild
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Palace
+	Craftsmens Guild
+	Spies Guild
+	Fortifications Tower
+	Lighthouse
+	Haven
+	Arena
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	TownHall
+	Observatory
+	Senate
+	Philosophers Guild
+	Gardens
+	Siege Workshop
+	Builders Guild
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Study
+	University
+	Arsenal
+	Lodge
+	Scientists Guild
+[RBAI1] Player [Frank] can play the following structures:
+[RANDOMCARD] Player [Barry] can play the following structures:
+	TownHall
+	Gardens
+	Siege Workshop
+	Builders Guild
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(4) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[PLAYER] Paying [1] gold.
+[RESOURCESMANAGER] Lost [1] gold.
+[PLAYER] Player [Chris] gaining [1] gold.
+	(3) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [University].
+[7WONDERS] Player [Frank] is resolving action [DISCARD_CARD] with structure [Palace].
+[PLAYER] Player [Frank] gaining [3] gold.
+	(4) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [TownHall].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Entering Turn [2]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Craftsmens Guild
+	Spies Guild
+	Fortifications Tower
+	Lighthouse
+	Haven
+	Arena
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Observatory
+	Senate
+	Philosophers Guild
+	Gardens
+	Siege Workshop
+	Builders Guild
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Study
+	Arsenal
+	Lodge
+	Pantheon
+	Academy
+	Scientists Guild
+[7WONDERS] Refreshing effects at frequency [TURN].
+[PLAYER] Player [Chris] freebuilt using [Dispensary].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Lighthouse
+	Haven
+	Arena
+[PLAYER] Player [Frank] freebuilt using [Library].
+[RBAI1] Player [Frank] can play the following structures:
+	Observatory
+	Senate
+	Builders Guild
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+	Senate
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Study
+	Lodge
+	Pantheon
+	Academy
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(5) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(7) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Frank] gaining [2] gold.
+	(4) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Haven].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Senate].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Study].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [GOLD_BONUS] from structure.
+[PLAYER] Player [Chris] gaining [3] gold.
+	(4) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Entering Turn [3]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Observatory
+	Philosophers Guild
+	Gardens
+	Siege Workshop
+	Builders Guild
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Arsenal
+	Lodge
+	Pantheon
+	Academy
+	Scientists Guild
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Craftsmens Guild
+	Spies Guild
+	Fortifications Tower
+	Lighthouse
+	Arena
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Philosophers Guild
+	Gardens
+[PLAYER] Player [Frank] freebuilt using [School].
+[RBAI1] Player [Frank] can play the following structures:
+	Arsenal
+	Lodge
+	Pantheon
+	Academy
+	Scientists Guild
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+	Pantheon
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Craftsmens Guild
+	Spies Guild
+	Fortifications Tower
+	Lighthouse
+	Arena
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Frank] gaining [4] gold.
+	(8) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Chris] gaining [4] gold.
+	(4) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[PLAYER] Paying [3] gold.
+[RESOURCESMANAGER] Lost [3] gold.
+[PLAYER] Player [Chris] gaining [3] gold.
+	(7) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Gardens].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Pantheon].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Fortifications Tower].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Entering Turn [4]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Arsenal
+	Lodge
+	Academy
+	Scientists Guild
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Craftsmens Guild
+	Spies Guild
+	Lighthouse
+	Arena
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Observatory
+	Philosophers Guild
+	Siege Workshop
+	Builders Guild
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Arsenal
+	Lodge
+	Academy
+	Scientists Guild
+[RBAI1] Player [Frank] can play the following structures:
+	Craftsmens Guild
+	Lighthouse
+	Arena
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+	Craftsmens Guild
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Siege Workshop
+	Builders Guild
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Barry] gaining [4] gold.
+	(6) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Chris] gaining [4] gold.
+	(7) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Scientists Guild].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Craftsmens Guild].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Siege Workshop].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [SHIELD_BONUS] from structure.
+[7WONDERS] Entering Turn [5]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Spies Guild
+	Lighthouse
+	Arena
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Observatory
+	Philosophers Guild
+	Builders Guild
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Arsenal
+	Lodge
+	Academy
+[7WONDERS] Refreshing effects at frequency [TURN].
+[PLAYER] Player [Chris] freebuilt using [Dispensary].
+[RANDOMCARD] Player [Chris] can play the following structures:
+	Spies Guild
+	Lighthouse
+	Arena
+[RBAI1] Player [Frank] can play the following structures:
+	Observatory
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+[RBAI1] Rule Five:
+	Observatory
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Lodge
+	Academy
+[PLAYER] Paying [4] gold.
+[RESOURCESMANAGER] Lost [4] gold.
+[PLAYER] Player [Frank] gaining [4] gold.
+	(4) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(8) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Frank] gaining [2] gold.
+	(6) Gold    (3) Ore     (2) Glass   (1) Loom    (1) Papyrus 
+[7WONDERS] Player [Chris] is resolving action [CONSTRUCT_STRUCTURE] with structure [Spies Guild].
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Observatory].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Lodge].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Entering Turn [6]
+[7WONDERS] [Chris] taking hand from [Frank].
+[SEVENWONDERS] Player [Chris] receiving hand: 
+	Philosophers Guild
+	Builders Guild
+[7WONDERS] [Frank] taking hand from [Barry].
+[SEVENWONDERS] Player [Frank] receiving hand: 
+	Arsenal
+	Academy
+[SEVENWONDERS] Player [Barry] receiving hand: 
+	Lighthouse
+	Arena
+[7WONDERS] Refreshing effects at frequency [TURN].
+[RANDOMCARD] Player [Chris] can play the following structures:
+[PLAYER] Player [Frank] freebuilt using [School].
+[RBAI1] Player [Frank] can play the following structures:
+	Arsenal
+	Academy
+[RBAI1] Rule One:
+[RBAI1] Rule Two:
+[RBAI1] Rule Three:
+[RBAI1] Rule Four:
+[RBAI1] Rule Five:
+	Academy
+[RANDOMCARD] Player [Barry] can play the following structures:
+	Lighthouse
+	Arena
+[PLAYER] Paying [2] gold.
+[RESOURCESMANAGER] Lost [2] gold.
+[PLAYER] Player [Barry] gaining [2] gold.
+	(8) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[7WONDERS] Player [Chris] is resolving action [DISCARD_CARD] with structure [Philosophers Guild].
+[PLAYER] Player [Chris] gaining [3] gold.
+	(4) Gold    (3) Wood    (1) Stone   (2) Loom    (1) Papyrus 
+[7WONDERS] Player [Frank] is resolving action [CONSTRUCT_STRUCTURE] with structure [Academy].
+[7WONDERS] Player [Barry] is resolving action [CONSTRUCT_STRUCTURE] with structure [Lighthouse].
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Frank] is resolving effect [SCIENCE_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Barry] is resolving effect [GOLD_BONUS] from structure.
+[PLAYER] Player [Barry] gaining [4] gold.
+	(12) Gold    (1) Wood    (2) Stone   (3) Brick   (1) Glass   
+[7WONDERS] Player [Barry] is resolving effect [VICTORY_POINT_BONUS] from structure.
+[7WONDERS] Player [Chris] discarding final card [Builders Guild].
+[7WONDERS] Player [Frank] discarding final card [Arsenal].
+[7WONDERS] Player [Barry] discarding final card [Arena].
+[7WONDERS] Resolving Conflicts.
+[7WONDERS] Player [Chris] has defetead Player [Frank] [5 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Frank] [9 - 0].
+[7WONDERS] Player [Barry] has defetead Player [Chris] [9 - 5].
+[7WONDERS] Calculating final scores.
+[PLAYER] [Chris] Victory Points: [16].
+[PLAYER] [Chris] Conflict Score: [11].
+[PLAYER] [Chris] Science Score: [13].
+[PLAYER] [Chris] Gold Score: [1].
+[PLAYER] [Chris] has a final score of [41].
+[PLAYER] [Frank] Victory Points: [23].
+[PLAYER] [Frank] Conflict Score: [-6].
+[PLAYER] [Frank] Science Score: [18].
+[PLAYER] [Frank] Gold Score: [1].
+[PLAYER] [Frank] has a final score of [36].
+[PLAYER] [Barry] Victory Points: [18].
+[PLAYER] [Barry] Conflict Score: [13].
+[PLAYER] [Barry] Science Score: [2].
+[PLAYER] [Barry] Gold Score: [4].
+[PLAYER] [Barry] has a final score of [37].
+[7WONDERS] Final Results [Chris] [Barry] [Frank] 3,1,2
+[GAME] Program terminating.
