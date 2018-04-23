@@ -1,4 +1,4 @@
-# 7 Wonders
+# Artificial Intelligence for Modern Board Games - "7 Wonders"
 
 A companion application to the paper [Artificial Intelligence for Modern Boardgames](https://github.com/fmadrid/7Wonders/blob/master/Paper.pdf), the **7 Wonders** application facilitates the playing of the modern abstract board game *7 Wonders*. This projects features two main components, a Java SE 7 based implementation of the *7 Wonders* ruleset and a series of intelligent agents incorporating different artificial intelligent paradigms such as Rules-Based systems.
 
